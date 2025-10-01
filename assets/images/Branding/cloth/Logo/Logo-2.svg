@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 296.56 151.07">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+        font-family: Mirante-SemiBold, Mirante;
+        font-size: 54px;
+        font-weight: 600;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #010101;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        letter-spacing: .42em;
+      }
+
+      .cls-4 {
+        letter-spacing: .45em;
+      }
+
+      .cls-5 {
+        letter-spacing: .45em;
+      }
+
+      .cls-6 {
+        letter-spacing: .44em;
+      }
+
+      .cls-7 {
+        letter-spacing: .46em;
+      }
+
+      .cls-8 {
+        letter-spacing: .46em;
+      }
+
+      .cls-9 {
+        font-family: MontreuxGS-DmBd, 'Montreux Grotesk Soft';
+        font-size: 15px;
+      }
+
+      .cls-10 {
+        letter-spacing: -.12em;
+      }
+
+      .cls-11 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-12 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-13 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-14 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-15 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-16 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-17 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-18 {
+        letter-spacing: -.04em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <text class="cls-1" transform="translate(0 125.9)"><tspan class="cls-11" x="0" y="0">L</tspan><tspan class="cls-14" x="27.59" y="0">u</tspan><tspan class="cls-18" x="58.21" y="0">x</tspan><tspan class="cls-10" x="82.73" y="0">e</tspan><tspan class="cls-13" x="106.38" y="0">Th</tspan><tspan class="cls-17" x="166.75" y="0">r</tspan><tspan class="cls-16" x="184.08" y="0">e</tspan><tspan class="cls-15" x="212.16" y="0">a</tspan><tspan class="cls-12" x="239.97" y="0">ds</tspan></text>
+      <g>
+        <path d="M165.01,22.09v5.4c-.51-.87-2.04-1.85-4.58-2.9-2.06-.82-4.96-1.32-8.71-1.5v42.11s0,.04,0,.06h0c.85.23,1.68.39,2.5.48.48.06,1.09.09,1.82.09.45,0,1.17-.02,2.15-.07.98-.05,2.26-.95,3.83-2.7-1.69,3.54-3.93,5.54-6.71,5.99-.67.09-1.35.14-2.04.14-.57,0-1.16-.03-1.77-.09-1.56-.16-3.5-.7-5.81-1.62l-.26-.1c-.11-.04-.23-.09-.35-.14-2.59-1.06-5.55-2.53-8.87-4.4-3.33-1.87-6.38-3.34-9.16-4.4-2.21-.03-4.51-.05-6.9-.05,1-.03,1.59-.78,1.77-2.27V15.28c-.03-1.48-.62-2.24-1.77-2.27h8.67c-1.12.03-1.71.79-1.77,2.27v41.29c.51.03,1.03.08,1.54.14,1.96.22,3.96.7,5.99,1.45,2.6,1,5.18,2.12,7.76,3.36,1.44.69,2.86,1.32,4.26,1.9V23.09c-3.72.12-6.63.62-8.72,1.5-2.54,1.06-4.07,2.03-4.58,2.9v-5.4h31.72Z"/>
+        <circle class="cls-2" cx="141.44" cy="39.39" r="38.89"/>
+        <path class="cls-2" d="M141.44,76.02c-20.19,0-36.62-16.43-36.62-36.62S121.24,2.77,141.44,2.77s36.62,16.43,36.62,36.62-16.43,36.62-36.62,36.62Z"/>
+      </g>
+      <text class="cls-9" transform="translate(98.69 146.67) scale(.8 1)"><tspan class="cls-7" x="0" y="0">C</tspan><tspan class="cls-4" x="18.37" y="0">L</tspan><tspan class="cls-3" x="34.51" y="0">O</tspan><tspan class="cls-6" x="53.05" y="0">T</tspan><tspan class="cls-8" x="70.08" y="0">H</tspan><tspan class="cls-5" x="89.04" y="0">E</tspan><tspan class="cls-7" x="106" y="0">S</tspan></text>
+    </g>
+  </g>
+</svg>
