@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", () => {
 const galleries = {
   cafe: [
     "../assets/images/SocialMedia/cafe/cafe-1.png",
-    "../assets/images/SocialMedia/cafe/cafe-2.png",
+    "../assets/images/SocialMedia/cafe/Cafe-2.png",
   ],
   lemp: [
     "../assets/images/SocialMedia/lemp/Post-1.png",
