@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Himanshu Prajapati</title>
+    <link rel="icon" href="https://iili.io/KMTUDas.png" type="" sizes="48x48" />
+
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/SocialMediaDesign.css" />
+    <script src="/js/script.js" defer></script>
+  </head>
+  <body>
+    <!--Preloader -->
+    <div id="preloader">
+      <div class="preloader-card">
+        <img src="https://iili.io/KMTUDas.png" alt="logo" class="loader-logo" />
+        <p class="loader-text">SocialDesign..</p>
+      </div>
+    </div>
+
+    <main class="main-container">
+      <div class="socialGrid">
+        <a
+          href="#"
+          class="socialCard"
+          data-gallery="cafe"
+          data-title="Cafe Post"
+        >
+          <img
+            src="/assets/images/SocialMedia/cafe/cafe-1.png"
+            alt="Cafe Post"
+          />
+        </a>
+        <a
+          href="#"
+          class="socialCard"
+          data-gallery="lemp"
+          data-title="Lamp Post"
+        >
+          <img
+            src="/assets/images/SocialMedia/lemp/post-6.jpg"
+            alt="Lamp Post"
+          />
+        </a>
+        <a
+          href="#"
+          class="socialCard"
+          data-gallery="fashion"
+          data-title="Fashion Post"
+        >
+          <img
+            src="/assets/images/SocialMedia/Fashion/post-2.jpg"
+            alt="Fashion Post"
+          />
+        </a>
+        <a
+          href="#"
+          class="socialCard"
+          data-gallery="shoes"
+          data-title="Shoes Post"
+        >
+          <img
+            src="/assets/images/SocialMedia/shoes/nike.png"
+            alt="Shoes Post"
+          />
+        </a>
+        <a
+          href="#"
+          class="socialCard"
+          data-gallery="food"
+          data-title="Food Post"
+        >
+          <img
+            src="/assets/images/SocialMedia/food/Dish-1.jpg"
+            alt="Food Post"
+          />
+        </a>
+      </div>
+
+      <div
+        id="igPostOverlay"
+        class="ig-post-overlay"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="igTopbarTitle"
+      >
+        <div class="ig-post-bg">
+          <div class="ig-post-frame" id="ig-post-frame">
+            <!-- IG-style top bar -->
+            <div class="ig-topbar" role="toolbar" aria-label="Post toolbar">
+              <button
+                class="ig-topbar-back"
+                type="button"
+                aria-label="Back"
+                data-ig-back
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path
+                    d="M15 18l-6-6 6-6"
+                    fill="none"
+                    stroke="#fff"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+
+              <p class="ig-topbar-title" id="igTopbarTitle">Post</p>
+            </div>
+
+            <!-- Header -->
+            <div class="ig-post-header">
+              <div class="ig-profile">
+                <img class="ig-avatar" src="/assets/icon/memoji.png" alt="" />
+                <span class="ig-username">himanstudio25</span>
+                <span class="ig-ProDot">•</span>
+                <a
+                  href="https://www.instagram.com/himanstudio25/"
+                  target="_blank"
+                  class="ig-following"
+                  >Following</a
+                >
+                <!-- <span class="ig-following">Following</span> -->
+              </div>
+              <span class="ig-menu">•••</span>
+            </div>
+
+            <!-- Post Media With Real Arrows -->
+            <div class="ig-post-image-wrap">
+              <div class="ig-post-image-slider"></div>
+              <button class="ig-real-arrow ig-arrow-left" aria-label="Previous">
+                <svg width="30" height="30" viewBox="0 0 42 42" fill="none">
+                  <!-- <circle
+                    cx="21"
+                    cy="21"
+                    r="21"
+                    fill="#fff"
+                    filter="url(#arrowShadow)"
+                    opacity="0.85"
+                  /> -->
+                  <path
+                    d="M24 14l-7 7 7 7"
+                    stroke="#222"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+              <button class="ig-real-arrow ig-arrow-right" aria-label="Next">
+                <svg width="30" height="30" viewBox="0 0 42 42" fill="none">
+                  <!-- <circle
+                    cx="21"
+                    cy="21"
+                    r="21"
+                    fill="#fff"
+                    filter="url(#arrowShadow)"
+                    opacity="0.85"
+                  /> -->
+                  <path
+                    d="M18 14l7 7-7 7"
+                    stroke="#222"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+              <div class="ig-post-dots"></div>
+            </div>
+
+            <!-- Bottom actions bar -->
+            <div class="ig-post-bar">
+              <div class="ig-bottom-left">
+                <button
+                  class="ig-bar-btn ig-like-btn"
+                  aria-label="Like"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5
+         2 5.42 4.42 3 7.5 3c1.74 0 3.41 0.81 4.5 2.09
+         C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22
+         8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                    />
+                  </svg>
+                </button>
+
+                <button class="ig-bar-btn" aria-label="Comment" type="button">
+                  <svg
+                    aria-label="Comment"
+                    class="x1lliihq x1n2onr6 x5n08af"
+                    fill="white"
+                    height="24"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    width="24"
+                  >
+                    <title>Comment</title>
+                    <path
+                      d="M20.656 17.008a9.993 9.993 0 1 0-3.59 3.615L22 22Z"
+                      fill="none"
+                      stroke="white"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    ></path>
+                  </svg>
+                </button>
+                <button class="ig-bar-btn" aria-label="Share" type="button">
+                  <svg
+                    aria-label="Share"
+                    class="x1lliihq x1n2onr6 xyb1xck"
+                    fill=""
+                    height="24"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    width="24"
+                  >
+                    <title>Share</title>
+                    <line
+                      fill="none"
+                      stroke="white"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      x1="22"
+                      x2="9.218"
+                      y1="3"
+                      y2="10.083"
+                    ></line>
+                    <polygon
+                      fill="none"
+                      points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334"
+                      stroke="white"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    ></polygon>
+                  </svg>
+                </button>
+              </div>
+              <div class="ig-bottom-right">
+                <button class="ig-bar-btn" aria-label="shaved" type="button">
+                  <svg
+                    aria-label="Save"
+                    class="x1lliihq x1n2onr6 xyb1xck"
+                    fill="white"
+                    height="24"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    width="24"
+                  >
+                    <title>Save</title>
+                    <polygon
+                      fill="none"
+                      points="20 21 12 13.44 4 21 4 3 20 3 20 21"
+                      stroke="white"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    ></polygon>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- FOOTER / CONTACT -->
+      <section class="footer" id="footer">
+        <div class="footer-content">
+          <div class="footer-time">
+            <p id="time">--:-- <span id="ampm">AM</span></p>
+            <p>Ahmedabad,India</p>
+          </div>
+          <div class="footer-contacts">
+            <a href="mailto:himanstudio25@gmail.com" class="footer-mail"
+              >himanstudio25@gmail.com</a
+            >
+            <div class="footer-social">
+              <a
+                href="https://www.instagram.com/himanstudio25/"
+                target="_blank"
+                aria-label="Instagram"
+                rel="noopener"
+                >Instagram</a
+              >
+              <a
+                href="https://www.linkedin.com/in/himanshuprajapati25/"
+                target="_blank"
+                aria-label="LinkedIn"
+                rel="noopener"
+                >LinkedIn</a
+              >
+              <a
+                href="https://www.behance.net/himanstudio25"
+                target="_blank"
+                aria-label="GitHub"
+                rel="noopener"
+                >Behance</a
+              >
+            </div>
+            <a
+              href="../assets/Resume/Himanshu_Prajapati_Resume_GD.pdf"
+              target="_blank"
+              class="footer-resume"
+              aria-label="Resume"
+              rel="noopener"
+              >Resume</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="btn-row">
+      <a class="pill-btn active" href="/index.html">&larr; &nbsp; Back</a>
+    </div>
+  </body>
+</html>

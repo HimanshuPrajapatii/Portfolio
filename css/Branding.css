@@ -1,0 +1,767 @@
+/* ==================== Branding main page ==================== */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 48px;
+  margin-top: 40px;
+}
+
+.brand-card {
+  /* flex: 0 0 47%; */
+  width: 47%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.brand-card img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ==================== Shared Container ==================== */
+
+.text-center {
+  text-align: center;
+  margin-bottom: 64px;
+}
+/* ==================== Headings ==================== */
+
+/* ==================== Case study Section ==================== */
+.case-study {
+  margin-bottom: 96px;
+  margin-top: 64px;
+}
+.case-header {
+  margin-bottom: 96px;
+}
+.case-header h1 {
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.case-details {
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--gray-70);
+}
+.meta {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+.sub-meta {
+  width: 24%;
+}
+.meta-title {
+  font-size: 14px;
+  margin: 0;
+}
+.meta-details {
+  font-size: 12px;
+  color: var(--gray-70);
+
+  margin-bottom: 0;
+}
+.heroImg {
+  height: 600px;
+  overflow: hidden;
+}
+.heroImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* ==================== Concept Section ==================== */
+
+.concept__container {
+  display: flex;
+  gap: 64px;
+  margin-bottom: 96px;
+}
+.concept__colLeft {
+  height: min-content;
+  position: sticky;
+  top: 64px;
+}
+.concept__colRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  cursor: ns-resize;
+}
+
+/* Concept Cards */
+.concept-card {
+  width: 460px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  padding: 24px;
+}
+.concept-card__image,
+.skin-card__image {
+  width: 100%;
+  height: 350px;
+  border-radius: 12px;
+  background: #faf9fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 28px;
+  fill: #29286b;
+}
+.concept-card__image img {
+  width: 80%;
+}
+.skin-logo {
+  width: 80%;
+  fill: #29286b;
+}
+.skin-mark {
+  width: 50%;
+}
+.concept-card__caption {
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--gray-10);
+  margin: 0;
+}
+
+/* Icon grid */
+.concept-icons {
+  width: 100%;
+  height: 350px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: #faf9fd;
+  border-radius: 12px;
+  margin-bottom: 28px;
+}
+.concept-icons__tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.concept-icons__tile img {
+  width: 80%;
+}
+
+.cloth-mark img {
+  width: 50%;
+}
+/* Color palette */
+.concept-palette {
+  margin-bottom: 28px;
+  padding: 24px;
+
+  width: 100%;
+  height: 350px;
+
+  background: #faf9fd;
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 36px;
+  color: var(--text-light-primary);
+}
+.concept-palette__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.concept-palette__pill {
+  width: 128px;
+  height: 28px;
+  border-radius: 999px;
+}
+/* 1 */
+.concept-palette__pill--coffee {
+  background: #4e342e;
+}
+.concept-palette__pill--CharcoalGrey {
+  background-color: #2c2c2c;
+}
+.concept-palette__pill--MidnightBlue {
+  background-color: #29286b;
+}
+
+/* 2 */
+.concept-palette__pill--green {
+  background: #a5d6a7;
+}
+.concept-palette__pill--TaupeBeige {
+  background-color: #b5a597;
+}
+.concept-palette__pill--VelvetBurgundy {
+  background-color: #800020;
+}
+/* 3 */
+.concept-palette__pill--black {
+  background: #2e2a25;
+}
+.concept-palette__pill--RoyalGold {
+  background-color: #d4af37;
+}
+.concept-palette__pill--GoldAccent {
+  background-color: #ffd700;
+}
+/* 4 */
+.concept-palette__pill--white {
+  background: #faf3e0;
+}
+.concept-palette__pill--DeepTeal {
+  background-color: #2e4f4f;
+}
+
+.concept-palette__pill--SoftCream {
+  background-color: #fffdd0;
+}
+
+/* 5 */
+.concept-palette__pill--beige {
+  background: #d7ccc8;
+}
+
+.concept-palette__pill--IvoryMist {
+  background-color: #f8f5f2;
+}
+
+.concept-palette__pill--PearlWhite {
+  background-color: #f0ffff;
+}
+
+/* Typography specimen */
+.concept-type {
+  text-align: center;
+  padding: 24px;
+  background: #faf9fd;
+  border-radius: 12px;
+  width: 100%;
+  height: 350px;
+  margin-bottom: 28px;
+  color: var(--text-light-primary);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.concept-type__AaLarge {
+  font-size: 68px;
+  font-weight: 800;
+}
+.concept-type__nameStrong {
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 0.6px;
+}
+.concept-type__Aa {
+  font-size: 72px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+.concept-type__name {
+  font-size: 18px;
+  color: var(--muted);
+}
+
+/* ==================== Icon Section ==================== */
+.icon-raw {
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  /* margin-bottom: 96px; */
+}
+
+.icon-card {
+  flex: 0 0 230px;
+  background-color: white;
+  border-radius: 12px;
+  height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.icon-card__img {
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain;
+}
+.SkinIcon-card {
+  flex: 0 0 230px;
+  background-color: white;
+  border-radius: 12px;
+  height: 230px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow);
+
+  overflow: hidden; /* prevents overflow */
+}
+.SkinIcon-card img {
+  width: 50%;
+}
+/* ==================== Packaging Section ==================== */
+.packaging-section {
+  margin: 96px 0;
+  /* margin-bottom: 96px; */
+}
+.section__head {
+  width: 80%;
+  margin-bottom: 56px;
+}
+.packaging__scroller,
+.cloth-print__scroller {
+  display: flex;
+  gap: 56px;
+  overflow-x: auto; /* horizontal scroll */
+  overflow-y: hidden; /* hide vertical */
+  scroll-behavior: smooth; /* smooth scroll */
+  padding: 12px 0;
+
+  /* optional: make scrollbar nicer */
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+}
+.packaging-card {
+  flex: 0 0 400px;
+  height: 400px;
+  margin: 24px 0;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: start;
+
+  overflow: hidden;
+}
+.packaging-card__img {
+  width: 100%;
+}
+.social-banner {
+  display: flex;
+  justify-content: center;
+  margin: 64px 0;
+  gap: 48px;
+}
+.social-section-image {
+  width: 48%;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+
+.cloth-mockup {
+  width: 100%;
+}
+
+/*---------- Social Media Section ------*/
+
+.social-section {
+  margin-bottom: 96px;
+}
+.social__container,
+.Cloth-packaging__container {
+  display: flex;
+  gap: 64px;
+}
+
+.social__colLeft,
+.Cloth-packaging__colLeft {
+  height: 100%;
+  position: sticky;
+  top: 64px;
+}
+
+.social__colRight,
+.Cloth-packaging__colRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  cursor: ns-resize;
+}
+
+.social-card__image img {
+  width: 450px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease;
+}
+.social-story img {
+  border-radius: 68px;
+}
+.social-card__image img:hover {
+  transform: translateY(-6px);
+}
+
+.Cloth-packaging-card__image img {
+  background-color: white;
+  width: 450px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+
+  transition: transform 0.3s ease;
+}
+
+/* ==================== Print Section ==================== */
+
+/* Coffee */
+.clothPrint-section {
+  margin-top: 64px;
+}
+
+.print-section {
+  margin: 96px 0;
+}
+.cloth-print-wrapper,
+.skinicon-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.print-card__img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+}
+
+/* Clothes */
+
+.cloth-print-card {
+  flex: 0 0 400px;
+  height: 400px;
+  margin: 24px 0;
+  background: #fff;
+  border-radius: 16px;
+
+  box-shadow: var(--shadow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: start;
+
+  overflow: hidden;
+}
+/* .Cloth-packaging-card {
+  background-color: white;
+} */
+.cloth-print-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* fills the card completely */
+  display: block;
+}
+
+/* Arrow buttons */
+.cloth-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.cloth-arrow:hover {
+  background: rgba(255, 255, 255, 1);
+}
+
+.cloth-arrow--left {
+  left: 8px;
+}
+.cloth-arrow--right {
+  right: 8px;
+}
+
+.icon-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Arrows */
+.icon-arrow,
+.skinicon-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.85);
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.icon-arrow:hover {
+  background: rgba(255, 255, 255, 1);
+}
+.skinicon-arrow:hover {
+  background: rgba(255, 255, 255, 1);
+}
+.icon-arrow--left,
+.skinicon-arrow--left {
+  left: 8px;
+}
+.icon-arrow--right,
+.skinicon-arrow--right {
+  right: 8px;
+}
+/* ==================== Responsive ==================== */
+/* ======= Responsive Media Queries ======= */
+@media (max-width: 1100px) {
+}
+@media (max-width: 768px) {
+  .concept-card {
+    width: 400px;
+  }
+  .social__container {
+    flex-wrap: wrap;
+    gap: 28px;
+    justify-content: space-between;
+  }
+  .social__colLeft {
+    width: 48%;
+  }
+  .social__colRight {
+    width: 48%;
+  }
+}
+
+@media (max-width: 840px) {
+  .heroImg {
+    height: auto;
+  }
+  .concept__container {
+    gap: 48px;
+  }
+
+  .concept__colRight {
+    gap: 48px;
+  }
+  .concept-card {
+    width: 300px;
+  }
+  .concept-card__image,
+  .concept-icons,
+  .concept-type {
+    height: 250px;
+  }
+  .concept-palette__pill {
+    width: 64px;
+  }
+  .concept-type__AaLarge,
+  .concept-type__Aa {
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .concept-type__nameStrong,
+  .concept-type__name {
+    font-size: 18px;
+  }
+
+  /* Packaging section */
+  .packaging-section header {
+    margin-bottom: 40px;
+  }
+
+  .social__colLeft {
+    position: static;
+    width: 100%;
+  }
+  .social__colRight {
+    width: 100%;
+  }
+  .brand-card {
+    width: 45%; /* a bit narrower gap */
+  }
+}
+
+@media (max-width: 576px) {
+  .case-study,
+  .concept-section,
+  .packaging-section,
+  .social-section,
+  .print-section,
+  .Cloth-packaging-section,
+  .clothPrint-section {
+    margin-bottom: 64px;
+  }
+  .icon-raw {
+    margin-bottom: 64px;
+  }
+  .social-banner {
+    flex-direction: column;
+    align-items: center;
+    margin: 56px 20px;
+    gap: 48px;
+  }
+  .social-section-image {
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
+  }
+  .centerText {
+    padding: 30px 24px 0 24px;
+  }
+  .concept__container,
+  .Cloth-packaging__container {
+    flex-direction: column;
+    gap: 48px;
+    margin-bottom: 64px;
+  }
+  .concept__colLeft,
+  .Cloth-packaging__colLeft {
+    position: static;
+    width: 100%;
+  }
+  .concept__colRight {
+    gap: 48px;
+  }
+  .concept-card {
+    width: 100%;
+  }
+  .concept-card__image,
+  .concept-icons,
+  .concept-type {
+    height: 300px;
+  }
+  .skin-card__image {
+    height: 250px;
+  }
+  .concept-palette {
+    height: auto;
+  }
+
+  .SkinIcon-card,
+  .icon-card {
+    flex: 0 0 200px;
+    height: 200px;
+  }
+  .concept-type__AaLarge {
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .concept-type__nameStrong {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .concept-type__Aa {
+    font-size: 48px;
+  }
+  .concept-type__name {
+    font-size: 18px;
+  }
+
+  /* Packaging Section  */
+  .section__head {
+    width: 100%;
+    margin-bottom: 28px;
+  }
+  .packaging__scroller,
+  .cloth-print__scroller {
+    gap: 48px;
+    margin-bottom: 56px;
+  }
+  .packaging-card,
+  .cloth-print-card {
+    flex: 0 0 300px;
+    height: 300px;
+  }
+
+  .social__colRight,
+  .Cloth-packaging__colRight {
+    gap: 40px;
+  }
+
+  .social-card__image img {
+    width: 100%;
+  }
+  .social-story img {
+    border-radius: 48px;
+  }
+  .Cloth-packaging-card__image img {
+    width: 100%;
+  }
+
+  /* Header section main */
+  .case-header {
+    margin-bottom: 56px;
+  }
+  .sub-meta {
+    width: 30%;
+  }
+  .meta {
+    margin-top: 40px;
+  }
+
+  .packaging-section header {
+    margin-bottom: 28px;
+  }
+
+  /* Text Section */
+
+  .case-header h1 {
+    font-size: 26px;
+    margin-bottom: 16px;
+  }
+  .case-details {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .concept-card__caption {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .brand-card {
+    width: 100%; /* full width */
+  }
+}
+
+@media (max-width: 480px) {
+}
